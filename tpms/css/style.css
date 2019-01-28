@@ -1,0 +1,89 @@
+.card .card-header {    
+    background-color: #18333a !important;
+    color: white;
+}
+
+
+.lgreenc{
+    color:#21b3a9;
+}
+
+.dgreenc{
+    color:#18333a;
+}
+
+.dgreenbg{
+    background-color:#18333a;
+    color: #eee;
+}
+
+.lgreenbg{
+    background-color:#21b3a9;
+    color: #eee;
+}
+
+aside > .panel-body ul{
+    background-color: #efefef;
+    
+   
+}
+aside > .panel-body{
+    background-color: #ffffff;       
+    height: auto;
+}
+
+div.panel-body >ul li{
+
+    padding:12px 0 12px 0;
+
+}
+
+
+
+
+
+
+footer{    
+background-color: #18333a;
+color: white;
+}
+
+header nav{
+    background-color: #18333a;
+    color: white;
+}
+
+.btn-outline-white {
+    color: #fff;
+    background-color:#21b3a9 ;    
+    /* border-color: #fff; */
+}
+
+.btn-outline-white:hover {
+    color: #fff;
+    background-color:transparent ;    
+    border-color: #fff;
+}
+
+
+
+
+
+/* row margin top */
+
+.top-buffer { margin-top:20px; }
+
+
+/* media quries start  */
+@media all and (max-device-width: 360px) {
+
+    .row-col-3 > div.col {        
+        margin-top: 20px;
+    }
+
+
+}
+
+/* media quries End*/
+
+
