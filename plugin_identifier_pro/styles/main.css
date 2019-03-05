@@ -1,0 +1,283 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body,html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	margin-bottom: 350px;
+}
+
+.m-t-0{
+	margin-top: 0px !important;
+}
+.m-t-10{
+	margin-top: 10px !important;
+}
+.m-t-15{
+	margin-top: 15px !important;
+}
+.m-t-30{
+	margin-top: 30px !important;
+}
+
+.p-x-y-0{
+	padding: 0;
+}
+
+.main_header .brand_logo a{
+	color: #0071b3;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main_header .links ul li{
+	float: left;
+	list-style-type: none;
+	color: #696969;
+}
+
+.main_header .links ul li:first-child::after{
+	content: '|';
+	margin: 10px;
+}	
+
+.right_content{
+	float: right;
+}
+
+.left_content{
+	float: left;
+}
+
+.upgrade_btn{
+	background-color: #f3ae12;
+    color: #fff;
+    border-radius: 80px;
+    padding: 5px 40px;
+}
+
+
+.download_btn{
+	background-color: #f3ae12;
+    color: #fff;
+    border-radius: 80px;
+    padding: 5px 40px;
+}
+
+
+.bg_yellow{
+	background-color: #f3ae12;
+	height: 40px;
+}
+
+.bg_blue{
+	background-color: #0071b3;
+	height: 40px;
+}
+
+
+.plugin_heading{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+.about_plugin_container{
+	padding-left: 25px;
+}
+.about_plugin_container .heading{
+	color: #0071b3;
+	font-weight: 400;
+}
+
+
+.about_plugin_container .dark_para{
+	color: #696969;
+    font-weight: 700;
+}
+
+.table_wrapper{
+	width: 100%;
+	height: 100px;
+	display: table;
+}
+
+.height_100_per{
+	height: 100%;
+	vertical-align: middle;
+    display: table-cell;
+}
+
+.table_wrapper .para{
+	width: 100%;
+}
+
+.tick_icon{
+	color: #00c240;
+	font-size: 22px;	
+}
+
+.cross_icon{
+	color: #f90e0e;
+	font-size: 22px;
+	
+}
+
+.cross_icon-cursor{
+	color: #f90e0e;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.status_active{
+	color: #00c240;
+	text-transform: capitalize;
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+.status_not_active{
+	color: #f90e0e;
+	text-transform: capitalize;
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+.table_wrapper{
+	width: 100%;
+	height: 100px;
+	display: table;
+}
+
+
+.bg_light_gray{
+	background-color: #fbfbfb !important;
+}
+.bg_light_blue{
+	background-color: #edfbff
+}
+
+.table_wrapper img{
+	display: table;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+
+.icon_title{
+	text-transform: capitalize;
+	color: #0078a1;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/*.banner img{
+	width: 100%;
+}
+*/
+
+.banner_img{
+	background-image: url("../images/banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 380px;
+	width: 100%;
+	display: table;
+}
+
+.inner_content{
+    display: table-cell;
+    padding: 75px;
+    color: #fff;
+
+}
+
+.m_t_custom{
+	margin-top: 40px;
+    padding: 3px 20px;
+}
+
+.inner_content p{
+    text-transform: capitalize;
+}
+
+@media (min-width:300px) and (max-width:768px) {
+	.bg_yellow {
+    height: 60px;
+	}
+	.bg_blue {
+	    height: 60px;
+	}
+	.plugin_heading{
+		font-size: 16px;
+	}
+
+	.banner_img {
+    	height: 130px;
+	}
+	.inner_content {
+	    display: table-cell;
+	    padding:  10px;
+	}
+	.m_t_custom {
+	    margin-top: 10px; 
+	}
+	.inner_content h3{
+		font-size: 14px;
+		line-height: 1px;
+	}
+	.upgrade_btn {
+	    padding: 2px 10px;
+	    font-size: 15px;
+	}
+	.main_header .brand_logo a {
+    	font-size: 13px;
+	}
+	.table_wrapper .para{
+		font-size: 10PX;
+	}
+}
+
+div#wpwrap {
+    overflow-x: hidden;
+}
+
+/* .nowrap_text{
+    white-space: nowrap;
+} */
+
+
+.plugin_desc {
+	
+	line-height: 14px;
+	height:75px;
+	margin: 0px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 15px;
+	
+  }
+
+  .modal-dialog{
+	top: 50%;
+    margin-top: -130px;
+}
+
+a.cross_icon-cursor{
+	text-transform: capitalize;
+    color: #0078a1;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+}
+
+
